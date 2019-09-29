@@ -37,7 +37,7 @@ html, body {
   align-content: center;
   flex-direction: column;
   background: url(../images/back.jpg) no-repeat center center fixed;
-  color: white; 
+  color: black; 
 }
 
 .line-break {
