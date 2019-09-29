@@ -31,7 +31,7 @@ html, body {
 }
 
 .head-content {
-  height: 1200px;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-content: center;
