@@ -18,9 +18,9 @@ window.addEventListener("load", () => {
       console.log(position);
       long = position.coords.longitude;
       lat = position.coords.latitude;
-      // const proxy = "https://cors-anywhere.herokuapp.com/";
-      // const proxy = "https://vismaya-kalyan.github.io/";    ${proxy}
-      const api = `https://api.darksky.net/forecast/7c1df849557baae56200142867b023a6/${lat},${long}`;
+      const proxy = "https://cors-anywhere.herokuapp.com/";
+      // const proxy = "https://vismaya-kalyan.github.io/";
+      const api = `${proxy}https://api.darksky.net/forecast/7c1df849557baae56200142867b023a6/${lat},${long}`;
 
       fetch(api)
         .then(response => {
