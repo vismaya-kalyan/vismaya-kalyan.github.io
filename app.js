@@ -22,9 +22,7 @@ window.addEventListener("load", () => {
       // const proxy = "https://vismaya-kalyan.github.io/";
       const api = `${proxy}https://api.darksky.net/forecast/7c1df849557baae56200142867b023a6/${lat},${long}`;
 
-      fetch(api, {
-        mode: 'no-cors'
-      })
+      fetch(api)
         .then(response => {
           return response.json();
         })
