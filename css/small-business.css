@@ -62,3 +62,12 @@ html, body {
   justify-content: center;
 } */
 
+::-moz-selection { /* Code for Firefox */
+  color:#FFF;
+  background: #212529
+}
+
+::selection {
+  color:#FFF;
+  background: #212529
+}
